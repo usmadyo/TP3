@@ -46,6 +46,4 @@ En deuxième lieu, en utilisant la librairie turf.js, nous avons ajouté trois f
 
 Voici notre application (service web final) 
 
- **__**
-
 ****![](https://lh7-us.googleusercontent.com/7-kBo7RepTIvG1fQ9dPp0UnR2djdo9zrNd2eH3q9jWW-H7rVEfzl6zxx9Q__44lsg_JnwALhpd0FzLJJUX_1IqQtVpzG_Au7e_q0CJDUtx3CDkkoGcuJmA0_ZVLAb2mZcSiohVTZ7LZkooeJjQM3F84)****
