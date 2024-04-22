@@ -1,6 +1,6 @@
 **RSQA - Indice de la qualité de l’air (IQA)**
 
-En premier lieu, nous avons ajouté nos couches avec des boutons en développant les codes Javascript correspondantes à chaque couche pour loader dans map avec les bonnes symbologies ‘paint’.
+En premier lieu, nous avons ajouté nos couches avec des boutons en développant les codes Javascript correspondantes à chaque couche (incluant le 'paint').
 
  ![](https://lh7-us.googleusercontent.com/CElmee1qCEejsVrNYRibuB52NcahDx3MKglLVAVVApc7A7g4r7cYQjUY-EoUUZ45Xr55vihW8SDpbOWylx_gzIzCw65bej8-mc4nqqrh5f_dmu_NXRxwMRqRfsLsyBcrX5CTX83oi69QFMLjUB4qceg)
 
@@ -10,7 +10,7 @@ En premier lieu, nous avons ajouté nos couches avec des boutons en développant
 
 ![](https://lh7-us.googleusercontent.com/iReq825MNuedezHh6KwP5MP0xwDbhB9AiNQbKyKl-CSs0j3ROSCullaqZye9FU3-ld8w2bnTioAIXKZtAHSl4GlPiZXdj1tGqkRzM7B-LUs_kdynALDALzWEFBPdAIpdwpBaH5y9tw3_l4vO1mMnKVg)
 
-En bas gauche de la carte, un feature count a été ajouté. Ce compteur illustre le nombre total des observations de toutes les stations RSQA.
+En bas gauche de la carte, un feature count a été ajouté. Ce compteur illustre le nombre total des enregistrements de toutes les stations RSQA.
 
 ![](https://lh7-us.googleusercontent.com/xPMLYHz7vdz8PgcmWHvVuelKw5LxxKaY9WzAOyzjITfL6GtcMSIKTUgADQiaPaV9NY2bV3ZAG4P0Au97a4KkqZ8BD0B6lltd-_6gEnzA_pF7geOVFLsmoxQ9nLxdTNVnuX84liLZqk-Juu8_zVdZmAA)
 
