@@ -1,0 +1,100 @@
+<div id="bottomMenu" class="container-fluid bg-dark">
+    <div class="row" style="padding: 10px; height: 100%;">
+      <div class="col-4" style="height: 100%;">
+        <h5 class="card-title text-white">Distance moyenne</h5>
+        <div class="d-grid gap-2 mr-auto">
+          
+          <div class="input-group">
+          </div>
+          <div class="input-group">
+            <button class="btn btn-info  col-6" type="button" id="calculateDistance">Calculer distance</button>
+            <input type="text" class="form-control col-6" disabled placeholder="0" id="distanceResult">
+          </div>
+        </div>
+        </div>
+        <div class="col-4" style="height: 100%;">
+          <h5 class="card-title text-white">Buffer</h5>
+          <div class="d-grid gap-2 mr-auto">
+            <div class="input-group">
+              <button class="btn btn-info  col-6" type="button" id="createBuffertest">Créer un buffer</button>
+              <!--
+              <input type="text" class="form-control col-6" id="radiusInput" placeholder="Entrez un radius">
+              -->
+            </div>
+        
+          </div>
+        </div>
+        <div class="col-4" style="height: 100%;">
+        
+          <h5 class="card-title text-white">Couche extrudée (2.5D)</h5>
+          <div class="d-grid gap-2 mr-auto">
+            <div class="input-group">
+              <button class="btn btn-info  col-6" type="button" id="generate3D">Générer couche 2.5</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+  <div id="map"></div>
+<div id="rightMenu" class="container-fluid bg-dark">
+    <div class="row" style="padding: 10px; height: 100%;">
+        <div class="col" style="height: 100%;">
+            <div class="card" style="height: 100%;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">RSQA - indice de la qualité de l'air temps réel</h5>
+                    <p class="card-text flex-grow-1">La Ville de Montréal mesure la qualité de l’air sous la forme d’une
+                        valeur numérique appelée « indice de la qualité de l’air (IQA) ». Le présent ensemble de données
+                        permet d'accéder aux valeurs quotidiennes de l'IQA, mises à jour à toutes les heures, environ 50
+                        minutes après l'heure. La valeur de l'indice de la qualité de l’air (IQA) est définie comme suit
+                        :
+                        Bon : De 1 à 25
+                        Acceptable : De 26 à 50
+                        Mauvais : 51 ou plus.
+                        <a class="btn btn-outline-info btn-sm btn-block" 
+                            href="https://donnees.montreal.ca/dataset/rsqa-indice-qualite-air"
+                            role="button">Informations</a>
+                        <a class="btn btn-outline-info btn-sm btn-block"
+                            href="https://donnees.montreal.ca/group/environnement-ressources-naturelles-energie?q=RSQA&sort=score+desc%2C+metadata_modified+desc"
+                            role="button">Données ouvertes</a>
+                    </p>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-secondary" type="button" id="resetMap">Reset map</button>
+                    <button class="btn btn-primary" type="button" id="load_station">Load RSQA stations</button>
+                    <button class="btn btn-warning" type="button" id="load_secteur">Load RSQA secteurs</button>
+                    <button class="btn btn-success" type="button" id="load_canope">Load canopée</button>
+                    <button class="btn btn-dark" type="button" id="load_arrondissements">Load arrondissements</button>
+                    <button class="btn btn-danger" type="button" id="load_ilotschaleur">Load îlots de chaleur</button>
+                    <button class="btn btn-outline-dark" type="button" id="load_carto">Load cartographie</button>
+                    <button class="btn btn-outline-primary" type="button" id="load_WMS">Load WMS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script rel="stylesheet" src="app.css"></script>
+<!-- ================================================== -->
+<script type='text/javascript' src="code.js"></script>
+<!-- ================================================== -->
+<script type='text/javascript' src="../modules/layerHandler.js"></script>
+<script type='text/javascript' src="../modules/dynamicCounting.js"></script>
+<script type='text/javascript' src="../modules/union.js"></script>
+<script type='text/javascript' src="../modules/createRandomPoints.js"></script>
+<script type='text/javascript' src="../modules/createGrid.js"></script>
+<script type='text/javascript' src="../modules/calculateDistance.js"></script>
+<script type='text/javascript' src="../modules/buffering.js"></script>
+<script type='text/javascript' src="../modules/spatialJoin.js"></script>
+<script type='text/javascript' src="load_station.js"></script>
+<script type='text/javascript' src="load_secteur.js"></script>
+<script type='text/javascript' src="load_canope.js"></script>
+<script type='text/javascript' src="load_carto.js"></script>
+<script type='text/javascript' src="load_ilotschaleur.js"></script>
+<script type='text/javascript' src="load_arrondissements.js"></script>
+<script type='text/javascript' src="load_WMS.js"></script>
+
+<link href='https://watergis.github.io/mapbox-gl-legend/mapbox-gl-legend.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.13.1/mapbox-gl.js'></script>
+<script src="https://watergis.github.io/mapbox-gl-legend/mapbox-gl-legend.js"></script>
+<script>
+    
