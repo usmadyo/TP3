@@ -32,7 +32,7 @@ De son côté, le bouton ‘Load WMS’ permet de charger un raster d’une imag
 
 Une légende interactive a également été ajoutée.
 
-\---------------------------------------------------------------------------------------------------------------------------------------------------
+\---------------------------------------------------------------------------------------------------------------------------------------
 
 En deuxième lieu, en utilisant la librairie turf.js, nous avons ajouté trois fonctions qui permettent de :
 
