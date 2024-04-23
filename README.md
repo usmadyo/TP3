@@ -18,7 +18,7 @@ Nous avons également ajouté des fonctions pour les contrôles de la carte. Ex.
 
 Le bouton ‘Reset map’ a un but de supprimer toutes les couches de la carte.
 
-Le bouton ‘Load arrondissements’ charge une couche WFS des arrondissements de la ville avec un popup qui montr le nom de l’arrondissement choisi.
+Le bouton ‘Load arrondissements’ charge une couche WFS des arrondissements de la ville avec un popup qui montre le nom de l’arrondissement choisi.
 
 ![](https://lh7-us.googleusercontent.com/X336yBo8zwK9u4MAloLlkqF8S_LL0SwcfH4PAx9H_gMDSvVU8-frm7KBYACObNw0XIcRa2VAl3jF-v6KSLbba9fVdIa5X7Q4IMMiHJSHoVxAA4Y7jUIrSJ36jZ6NJG3ntFgT8OKjEpY7TugnqtAd3Gs)
 
